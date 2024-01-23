@@ -1,74 +1,87 @@
 <!DOCTYPE html>
-<html lang="It">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prima Consegna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sviluppo di una pagina web - Epicode</title>
 </head>
+
 <body>
-    <h1 id="su"> Matheus Dos santos Reis</h1>
-        <h2>  mathzao@libero.It</h2>
-        <figure>
-              <img src="assets/Immagine WhatsApp 2024-01-22 ore 15.58.07_53e563dd.jpg"  alt="Una mia foto" width="300px">   
-     
-              <style>
-                img {
-                    border: 2px solid #333;
-                    box-shadow: 5px 5px 5px #888888;
-                    filter: grayscale(50%);
-                }
-                
-                
-            </style>
-        </figure>
-        <p>Sono nato in Brasile a Rio De Janeiro, Venuto per la prima volta in italia a 15 anni Ho Terminato la scuola in italia
-            indirizzo Informatico, ho fatto diversi corsi che riguardavano l'informatica in Brasile Come <b>Disigner Grafico, Tecnico Informatico, e Corso de digitazione. </b>
-                Mi è sempre piaciuto il mondo tech, e sono sicuro che per iniziare il mio percorso formativo come svilupattore Web, Epicode è la strada migliore!
-        </p>
+    <header>
+        <div>
+            <img src="assets/img/logo.svg" alt="Logo del blog" width="250" height="60">
+            <p>Epicode-Il blog degli developers</p>
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home page"> Home </a> </li>
+                <li><a href="articoli.html" title="articoli"> Articoli </a> </li>
+                <li><a href="contatti.html" title="contatti"> Contatti </a> </li>
+            </ul>
+        </nav>
+    </header>
     <hr>
-        <p>
-            I miei Hobby preferiti in questo momento, sicuramente è leggere e allenarmi E viaggiare, Dico in questo momento perche futuramente
-            sarà anche scrivere codici. Per la lettura normalmente leggo temi come self-help e psicologia, mi affaciscinano tanto.
-            e per allenarmi intendo <b> Corsa, Palestra, camminata.</b>
-    
-        </p>
-   <hr>
-        <p>
-             Conoscenze base su Logica di programmazione, Algoritimi, html e css, Photoshop Sony Vegas studio.
-             
-             
+    <main>
+        <article>
+            <h1> Come creare un template per i post </h1>
+            <p> Di mario rossi - <span> Publicato il 25-10-2020</span> </p>
 
 
+            <p>La prima cosa da fare è suddividere in blocchi logica la pagina identificando le <strong> Parti
+                    comune</strong> Ad applicare a tutta le pagine </p>
+        </article>
+        <p>Le varie aree saranno quindi suddivise in: </p>
+        <li>Contenuti di intestazione del tag &lt; header &gt;</li>
+        <li> Contenuti centrali variabili del tag &lt; main &gt; corpo principale</li>
+        <li>Contenuti di fine pagina comuni, da inserire nel tag &lt; footer &gt;</li>
+        <h2>Formatazione del codice</h2>
+        <p> Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <strong> selezionare con i
+                CSS</strong> Perciò i passi saranno: </p>
+        <ol type="1">
+            <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+            <li>Scrivere L'HTML dei tag esterni a quelli dall'alto verso il basso </li>
+            <li>Applicare agli stili CSS</li>
+        </ol>
+        <p> L'applicazione di stile CSS è cresciuta negli anni fino a raggiungere la diffusione pressoche totale</p>
+        <table>
+            <caption>
+                La diffusione di CSS
 
-        </p>
-
-
-
-    <footer>
-        <a href="https://github.com/mathzaoo" target="_blank" rel="noopen">  
-           <img src="assets/github.svg" width="50px">
-           <p> github</p> 
-        </a>
-        <a href="https://www.linkedin.com/in/matheus-dos-santos-reis-80b00a253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopen">  
-            <img src="assets/linkedin.svg" width="50px">
-               <p> linkedin</p> 
+            </caption>
+            <thead>
+                <tr>
+                    <th>Anno</th>
+                    <th>% di utilizzo</th>
+                    <th>supporto browser</th>
+                </tr>
+                <tr>
+                    <td> 2000 </td>
+                    <td> 20% </td>
+                    <td> 17& </td>
+                </tr>
+                <tr>
+                    <td> 2002</td>
+                    <td> 35%</td>
+                    <td> 22%</td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>45%</td>
+                    <td>43%</td>
+                </tr>
                
-         </a>
+                </thead>
+                </table>
+                <p> un test di validazione potrà essere fatto tramite il <a href="www.google.com">Tool online</a> </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/R62zsCN5JWQ?si=s-ArAUiK7uwKSUtH"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
 
 
-
-
-         <main>
-           
-        </main>
-    
-        <footer">
-            &copy;Matheus Dos Santos
-        </footer>
-        <a href="#su"> Torna su </a>
-        
-    
-         
-    </footer>
+    </main>
 </body>
+
 </html>
