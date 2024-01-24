@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+    main{
+        width: 60%;
+        margin: 0 auto;
+    }
+h2{
+    text-align: initial;
+}
+  h3{
+    text-align: initial;
+  }
+  li{
+    text-align: initial;
+
+  }
+  span {
+    color:red;
+  }
+  
+
+  
