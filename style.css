@@ -1,23 +1,60 @@
-body{
+/* IMPOSTAZIONI GENERALI */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img/sfondo.png);
+    background-repeat: initial;
+}
+
+/* HEADER */
+#headercont {
+    text-align: center;
+    text-decoration-color: antiquewhite;
+    background-image: linear-gradient(to top, rgba(5, 108, 133, 1), rgba(0, 159, 197, 1));
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 8px 10px;
+}
+
+ul {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+ul:hover {
+    background-color: #4b5e8e;
+
+}
+
+
+header ul li::before{
+    content: ⭐;
+}
+
+
+li {
     text-align: center;
 }
-    main{
-        width: 60%;
-        margin: 0 auto;
-    }
-h2{
-    text-align: initial;
+
+
+
+
+/* MAIN */
+main {
+    background-color: white;
+    padding: 100    px;
+    margin: 50px;
+
 }
-  h3{
-    text-align: initial;
-  }
-  li{
-    text-align: initial;
 
-  }
-  span {
-    color:red;
-  }
-  
+/* TABELLE */
 
-  
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
